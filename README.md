@@ -54,3 +54,18 @@ Each team will give a brief (five minute) presentation of their application. Pre
 - First team member: What was your team's planning process?
 - Second team member: Show us one built in Ruby method your team used and explain what it is doing.
 - Third team member: What did your team get stuck on and how did you overcome this challenge?
+
+
+
+## our plan
+- our theme : 
+    - zombie apocolypes, need supplies for your camp
+- linear gameplay
+- 4 paths 
+    - 1 finds an item
+        - weapon: enables attack with charges (how many times you can use it before it breaks)
+        - armor: saves from an attack (limited use)
+        - food and supplies: win condition, find 10 supplies return to camp. 
+    - 1 doesn't affect the game
+    - 1 zombie kills you
+    - 1 return to camp
