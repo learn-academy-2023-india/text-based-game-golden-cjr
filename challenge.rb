@@ -16,7 +16,14 @@ def youdieded
     end
 end
 
+def display_title
+    File.readlines('title.txt') do |line|
+        line
+    end
+end
+
 puts display_ascii
+puts display_title
 
 def game_start 
     puts 'Welcome to Z Survive'
@@ -50,7 +57,7 @@ puts "Lives: #{lives}, Ammo: #{bullets}, Armor: #{armor}, Food and Supplies: #{s
 
         travel = gets.chomp.downcase
 
-        if travel == "plaza"
+        while travel == "plaza"
             puts "Lives: #{lives}, Ammo: #{bullets}, Armor: #{armor}, Food and Supplies: #{supplies}"
             puts 'Where do you want to look?'
             puts 'Type grocery store, zalgreenz, clothing store'
